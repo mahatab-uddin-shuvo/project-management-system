@@ -1,7 +1,10 @@
 ## Project Setup
-### 1 git clone this url
+Php Version: 8.2
+Larevel version: 11.9 
+
+### 1 Clone this URL
     git clone https://github.com/mahatab-uddin-shuvo/project-management-system.git
-### 2 must be your php version 8.2 or grater then 8.2
+### 2 Your must be your php version 8.2 or grater then 8.2
 ### 3 .env.example file copy to .env 
 ### 4 After Clone this project then install 
     composer install
@@ -30,7 +33,7 @@
     email: admin@admin.com
     password: 123456
     
-### 11 after login this user then hit this route, then all api permission name save in database
+### 11 After login this user then hit this route, then all api permission name save in database
     YOUR_BASE_URL/api/permission/sync-route-to-permission 
 
 ### 12 npm install 
