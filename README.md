@@ -29,12 +29,12 @@ Larevel version: 11.9
     php artisan db:seed --class=DatabaseSeeder 
 
 ### 10 Your login credentials and api route
-    url: YOUR_BASE_URL/api/login
+    url: {{YOUR_BASE_URL}}/api/login
     email: admin@admin.com
     password: 123456
     
 ### 11 After login this user then hit this route, then all api permission name save in database
-    YOUR_BASE_URL/api/permission/sync-route-to-permission 
+    {{YOUR_BASE_URL}}/api/permission/sync-route-to-permission 
 
 ### 12 Then run this command for using vite connection for check realtime data fetching in welcome.blade.php
     npm install
@@ -50,6 +50,12 @@ Larevel version: 11.9
     
 ### 16 Queue run for websocket
     php artisan queue:work
+
+{{YOUR_BASE_URL}}/api/tasks/create
+{{YOUR_BASE_URL}}/api/tasks/update/1
+{{YOUR_BASE_URL}}/api/tasks/task-status-update/3
+
+when those route are hit then check open in browser this URL {{YOUR_BASE_URL}} and open the inspect and then open in console then see the real time data fetching
 
 
 
