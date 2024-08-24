@@ -45,10 +45,10 @@ Larevel version: 11.9
 ### 14 For production mode 
     npm run build
     
-### 14 When you use websocket, those command run for realtime data fetching     
+### 15 When you use websocket, those command run for realtime data fetching     
     php artisan reverb:start
     
-### 15 Queue run for websocket
+### 16 Queue run for websocket
     php artisan queue:work
 
 
