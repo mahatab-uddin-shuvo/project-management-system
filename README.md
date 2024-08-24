@@ -8,7 +8,7 @@ Larevel version: 11.9
 ### 3 .env.example file copy to .env 
 ### 4 After Clone this project then install 
     composer install
-### 5 create a database then database info paste to .env file like this 
+### 5 Create a database then database info paste to .env file like this 
     DB_CONNECTION=mysql
     DB_HOST=127.0.0.1
     DB_PORT=3306
@@ -36,13 +36,22 @@ Larevel version: 11.9
 ### 11 After login this user then hit this route, then all api permission name save in database
     YOUR_BASE_URL/api/permission/sync-route-to-permission 
 
-### 12 npm install 
+### 12 Then run this command for using vite connection for check realtime data fetching in welcome.blade.php
+    npm install
     
-### 13 when you use websocket, those command run for realtime data fetching     
+### 13 For dev mode 
+    npm run dev
+    
+### 14 For production mode 
+    npm run build
+    
+### 14 When you use websocket, those command run for realtime data fetching     
     php artisan reverb:start
     
-### 14 Queue run for websocket
+### 15 Queue run for websocket
     php artisan queue:work
+
+
 
     
 
