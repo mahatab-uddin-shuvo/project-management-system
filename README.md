@@ -1,6 +1,6 @@
 ## Project Setup
-Php Version: 8.2
-Larevel version: 11.9 
+ - Php Version: 8.2
+ - Larevel version: 11.9 
 
 ### 1 Clone this URL
     git clone https://github.com/mahatab-uddin-shuvo/project-management-system.git
