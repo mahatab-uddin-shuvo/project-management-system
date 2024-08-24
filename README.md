@@ -24,20 +24,23 @@
     
 ### 9 Create a user and role and SuperAdmin role assign to user for run this seeder file in your command line
     php artisan db:seed --class=DatabaseSeeder 
-    
+
+### 10 Your login credentials and api route
+    url: YOUR_BASE_URL/api/login
     email: admin@admin.com
     password: 123456
-    url: YOUR_BASE_URL/api/login
     
-### 10 after login this user then hit this route, then all api permission name save in database
+### 11 after login this user then hit this route, then all api permission name save in database
     YOUR_BASE_URL/api/permission/sync-route-to-permission 
 
-### 11 npm install 
+### 12 npm install 
     
-### 12 when you use websocket, those command run for realtime data fetching  
-    php artisan queue:work
-    
+### 13 when you use websocket, those command run for realtime data fetching     
     php artisan reverb:start
+    
+### 14 Queue run for websocket
+    php artisan queue:work
+
     
 
     
