@@ -29,9 +29,9 @@
     php artisan db:seed --class=DatabaseSeeder 
 
 ### 10 Your login credentials and api route
-    - url: {{YOUR_BASE_URL}}/api/login
-    - email: admin@admin.com
-    - password: 123456
+- url: {{YOUR_BASE_URL}}/api/login
+- email: admin@admin.com
+- password: 123456
     
 ### 11 After login this user then hit this route, then all api permission name save in database
     {{YOUR_BASE_URL}}/api/permission/sync-route-to-permission 
