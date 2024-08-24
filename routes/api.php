@@ -12,7 +12,7 @@ use Illuminate\Support\Facades\Route;
 Route::post('register', [AuthController::class, 'register']);
 Route::post('login', [AuthController::class, 'login']);
 
-//Route::get('projects/export', [ReportController::class, 'exportProjectReport'])->name('projects.report-export');
+Route::get('projects/export', [ReportController::class, 'exportProjectReport'])->name('projects.report-export');
 
 Route::middleware(['auth:api', 'checkPermission'])->group(function () {
     Route::get('logout', [UserController::class, 'logout'])->name('user.logout');
